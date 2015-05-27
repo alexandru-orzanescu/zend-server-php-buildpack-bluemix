@@ -13,7 +13,7 @@ Include "/usr/local/zend/etc/sites.d/zend-default-vhost-80.conf"
         </Directory>
         <Directory /var/www/>
                 Options -Indexes FollowSymLinks MultiViews
-                AllowOverride None
+                AllowOverride All	# used All for .htaccess file
                 Order allow,deny
                 allow from all
         </Directory>
